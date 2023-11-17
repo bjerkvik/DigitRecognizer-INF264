@@ -49,7 +49,7 @@ The traditional model undergoes a similar evaluation. Its predictions on the tes
 Finally, a comparative analysis is presented, tabulating the Macro F1 Scores and Balanced Accuracies of both models. This comparison provides a clear view of each model's overall accuracy and class-wise balance, offering valuable insights into their capabilities and areas for improvement.
 
 ## Dataset
-The dataset used for this project is derived from the Extended MNIST (EMNIST) dataset. It consists of two files: `emnist_hex_images.npy` and `emnist_hex_labels.npy`, which can be downloaded from [this link](https://filesender.sikt.no/?s=download&token=01f980ab-6d18-4a21-9d81-fc2ce591123c).
+The dataset used for this project is derived from the Extended MNIST (EMNIST) dataset. It consists of two files: `emnist_hex_images.npy` and `emnist_hex_labels.npy`, which can be downloaded from ~~[this link](https://filesender.sikt.no/?s=download&token=01f980ab-6d18-4a21-9d81-fc2ce591123c)~~ (Link no longer active).
 
 - `emnist_hex_images.npy` contains 107,802 images, each of size 20×20 pixels, flattened into 1D arrays of 400 elements. The values in these arrays range from 0 (black) to 255 (white).
 - `emnist_hex_labels.npy` includes corresponding labels for these images, with integers ranging from 0 to 16, where each integer encodes the class the image belongs to. The class '16' represents an empty image.
